@@ -13,6 +13,6 @@ class EventHandler(pyinotify.ProcessEvent):
 
 handler = EventHandler()
 notifier = pyinotify.Notifier(wm, handler)
-wdd = wm.add_watch('/tmp', mask, rec=TRUE)
+wdd = wm.add_watch('/tmp', mask, rec=True)
 
 notifier.loop()
