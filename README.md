@@ -4,6 +4,6 @@ Created for linux using [pyinotify](https://github.com/seb-m/pyinotify) and [gdr
 
 To use, install [pyinotify](https://github.com/seb-m/pyinotify), [gdrive](https://github.com/prasmussen/gdrive) and follow the setup directions for [gdrive](https://github.com/prasmussen/gdrive).
 
-Once setup, change the variable `directory` to the folder path you wish to watch.
+Once setup, change the `directory` variable to the folder path you wish to watch.
 
 To run, type `python watch_an_drive.py`
