@@ -8,7 +8,8 @@ mask = pyinotify.IN_DELETE | pyinotify.IN_CREATE
 class EventHandler(pyinotify.ProcessEvent):
     def process_IN_CREATE(self, event):
         cmdstring = "gdrive upload %s" % (event.pathname)
-        print "Creating:", os.system(cmdstring)
+        print "Uploading:", event.pathname
+        os.system(cmdstring)
 
     def process_IN_DELETE(self, event):
         print "Removing:", event.pathname
