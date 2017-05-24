@@ -6,4 +6,4 @@ To use, install [pyinotify](https://github.com/seb-m/pyinotify), [gdrive](https:
 
 Once setup, change the `directory` variable to the folder path you wish to watch.
 
-To run, type `python watch_an_drive.py`
+To run, type `python watch_and_drive.py`
